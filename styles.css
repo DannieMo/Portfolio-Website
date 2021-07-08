@@ -1,14 +1,161 @@
 body {
     background-color: #191765;
+    
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header {
     width: 90%;
     margin: 0 auto;
     height: 60px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    color: #fff;
+    font-size: 15px;
 
 }
-
+header p {
+    font-size: 18px;
+}
+header ul {
+    display: flex;
+    list-style-type: none; 
+}
+header ul li {
+    margin-left: 32px;
+}
+header img {
+    display: none;
+}
+.first {
+    margin-top: 80px;
+    background-image: url(./Tertiary/two\ circles\ header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-head {
+    width: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.first-head h1 {
+    color: #9390FF;
+    font-weight: 700;
+    font-size: 90px;
+    text-align: center;
+}
+.first-head h2 {
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 88px;
+    font-size: 40px;
+    text-align: center;
+}
+.first-head p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #B3BAC5;
+    width: 100%;
+    text-align: center;
+    line-height: 32px;
+}
+.first-line {
+    width: 100%;
+    height: 0;
+    background-color: #646369;
+    margin-top: 50px;
+    color: #646369;
+}
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+li h4 {
+    color: #9390FF;
+    font-weight: 700;
+    font-size: 18px;
+}
+.items ul {
+    list-style-type: none;
+}
+.items li {
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.first-link {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.link-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.group-55 {
+    display: flex;
+    justify-content: space-between;
+}
+.group-55 img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.group-55 p {
+    font-size: 20px;
+    color: #A2A3AE;
+}
+@media screen and (max-width: 768px) {
+    .first-head h1 {
+        font-size: 48px;
+    }
+    .first-head {
+        width: 85%;
+    }
+    .first-head h2 {
+        font-size: 32px;
+    }
+    .first-head p {
+        line-height: 28px;
+    }
+    .items {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .items ul {
+        width: 50%;
+    }
+    .work-first {
+        display: none;
+    }
+    .first-link {
+        flex-direction: column;
+    }
+    .group-55 {
+        margin-top: 30px;
+    }
+    header ul {
+        display: none;
+    }
+    header img {
+        display: block;
+    }
+    .first {
+        margin-top: 40px;
+        background-image: url(./Tertiary/top\ circles.svg);
+        background-size: contain;
+    }
+}
