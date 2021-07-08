@@ -1,6 +1,6 @@
 # Portfolio-Website
 
-> A demo page with linter and git workflow scope.
+> This a simple portfolio website with linter and git workflow scope.
 
 ## Built With
 
