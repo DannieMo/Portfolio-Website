@@ -1,1 +1,1 @@
-node_modules should be ignored by git
+/node_modules
