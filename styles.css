@@ -21,8 +21,10 @@ header {
   font-size: 15px;
 }
 
-header p {
+header a {
   font-size: 18px;
+  text-decoration: none;
+  color: #fff;
 }
 
 header ul {
