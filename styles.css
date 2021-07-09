@@ -192,3 +192,137 @@ li h4 {
     background-size: contain;
   }
 }
+
+/* Middle Section */
+.middle-section-work {
+  margin-top: 180px;
+  padding-bottom: 60px;
+  background-image: url(./Tertiary/Group\ 65.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middle-section {
+  width: 83.3%;
+  margin: 0 auto;
+}
+
+.stories {
+  margin-top: 80px;
+  display: grid;
+}
+
+.story-left {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.rect {
+  width: 55%;
+  background-color: #fff;
+  height: auto;
+}
+
+.desc {
+  width: 42%;
+  padding-left: 15px;
+  padding-top: 80px;
+}
+
+.middle-section h3 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+  color: #9390ff;
+  margin-bottom: 60px;
+}
+
+.middle-section-work p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #dfe1e6;
+  line-height: 28px;
+}
+
+.desc h4 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 56px;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.skills p {
+  border-right: 1px solid #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.skills p:last-of-type {
+  border-right: none;
+}
+
+.desc button {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 15px 20px;
+  background-color: #9390ff;
+  border: 1px solid #9390ff;
+}
+
+@media screen and (max-width: 768px) {
+  .story-left {
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  .middle-section-work {
+    margin-top: 80px;
+    padding-bottom: 40px;
+    background-image: url(./Tertiary/portfolio\ background\ shapes\ mobile.svg);
+    background-size: contain;
+  }
+
+  .middle-section {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .middle-section h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  .rect {
+    width: 100%;
+    height: 236px;
+  }
+
+  .desc {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  .desc h4 {
+    font-size: 32px;
+  }
+
+  .skills p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+
+  .invert {
+    flex-direction: column-reverse;
+  }
+}
