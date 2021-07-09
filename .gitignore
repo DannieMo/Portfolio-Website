@@ -1,1 +1,2 @@
-node_modules_to_ignore/
+node_modules/
+logs/
