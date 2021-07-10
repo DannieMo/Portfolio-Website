@@ -279,9 +279,9 @@ li h4 {
 }
 
 .desc button:hover {
-    background-color: #000;
-    color: white;
-  }
+  background-color: #000;
+  color: white;
+}
 
 @media screen and (max-width: 768px) {
   .story-left {
