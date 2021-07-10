@@ -278,6 +278,11 @@ li h4 {
   border: 1px solid #9390ff;
 }
 
+.desc button:hover {
+    background-color: #000;
+    color: white;
+  }
+
 @media screen and (max-width: 768px) {
   .story-left {
     margin-bottom: 50px;
