@@ -331,3 +331,70 @@ li h4 {
     flex-direction: column-reverse;
   }
 }
+
+/* Footer */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact h5 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #9390ff;
+  line-height: 24px;
+  text-align: center;
+}
+
+.mobile {
+  display: none;
+  text-align: center;
+}
+
+.contact-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #b3bac5;
+  width: 100%;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+form {
+  color: #000;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.contact-element {
+  width: 48.5%;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact-element1 {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact-element2 {
+  width: 100%;
+  height: 150px;
+  padding: 10px 15px;
+}
