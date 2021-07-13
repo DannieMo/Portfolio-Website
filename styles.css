@@ -379,6 +379,7 @@ form {
   flex-direction: row;
   width: 100%;
 }
+
 .contact-element {
   width: 48.5%;
   height: 50px;
@@ -387,14 +388,44 @@ form {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .contact-element1 {
   width: 100%;
   height: 50px;
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .contact-element2 {
   width: 100%;
   height: 150px;
   padding: 10px 15px;
+}
+
+.contact-button {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 12px 60px;
+  background-color: #9390ff;
+  border: 1px solid #9390ff;
+  margin-bottom: 150px;
+}
+
+.contact-button:hover {
+  background-color: #000;
+  color: white;
+  }
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.socials p {
+  font-weight: 400px;
+  font-size: 20px;
+  color: #ebebff;
 }
