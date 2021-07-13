@@ -429,3 +429,18 @@ form {
   font-size: 20px;
   color: #ebebff;
 }
+
+@media screen and (max-width: 768px) {
+    .contact {
+        width: 90%;
+    }
+    .custom {
+        display: none;
+    }
+    .data {
+        flex-direction: column;
+    }
+    .contact-element {
+        width: 100%;
+        margin-bottom: 25px;
+    }
