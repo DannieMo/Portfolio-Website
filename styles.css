@@ -265,6 +265,23 @@ li h4 {
   padding-right: 25px;
 }
 
+.contact-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #b3bac5;
+  width: 100%;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.socials p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
+}
+
 .skills p:last-of-type {
   border-right: none;
 }
@@ -354,17 +371,6 @@ li h4 {
   text-align: center;
 }
 
-.contact-text p {
-  font-size: 20px;
-  font-weight: 400;
-  color: #b3bac5;
-  width: 100%;
-  text-align: center;
-  line-height: 28px;
-  margin-top: 25px;
-  margin-bottom: 45px;
-}
-
 form {
   color: #000;
   font-size: 20px;
@@ -373,6 +379,7 @@ form {
   flex-direction: column;
   align-items: center;
 }
+
 .data {
   display: flex;
   justify-content: space-between;
@@ -415,7 +422,7 @@ form {
 .contact-button:hover {
   background-color: #000;
   color: white;
-  }
+}
 
 .socials {
   display: flex;
@@ -423,24 +430,36 @@ form {
   align-items: center;
   justify-content: space-between;
 }
-  
-.socials p {
-  font-weight: 400px;
-  font-size: 20px;
-  color: #ebebff;
-}
 
 @media screen and (max-width: 768px) {
-    .contact {
-        width: 90%;
-    }
-    .custom {
-        display: none;
-    }
-    .data {
-        flex-direction: column;
-    }
-    .contact-element {
-        width: 100%;
-        margin-bottom: 25px;
-    }
+  .contact {
+    width: 90%;
+  }
+
+  .custom {
+    display: none;
+  }
+
+  .data {
+    flex-direction: column;
+  }
+
+  .contact-element {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .socials {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .chat {
+    display: none;
+  }
+
+  .mobile {
+    margin-top: 60px;
+    display: block;
+  }
+}
