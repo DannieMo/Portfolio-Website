@@ -331,3 +331,36 @@ li h4 {
     flex-direction: column-reverse;
   }
 }
+
+/* Footer */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact h5 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #9390ff;
+    line-height: 24px;
+    text-align: center;
+}
+
+.mobile {
+    display: none;
+    text-align: center;
+}
+
+.contact-text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #b3bac5;
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
