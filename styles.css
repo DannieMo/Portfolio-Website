@@ -293,6 +293,7 @@ li h4 {
   padding: 15px 20px;
   background-color: #9390ff;
   border: 1px solid #9390ff;
+  color: #fff;
 }
 
 .desc button:hover {
@@ -401,6 +402,7 @@ form {
   height: 50px;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 28px;
 }
 
 .contact-element2 {
@@ -413,10 +415,11 @@ form {
   margin-top: 30px;
   font-weight: 500;
   font-size: 15px;
-  padding: 12px 60px;
+  padding: 15px 40px;
   background-color: #9390ff;
   border: 1px solid #9390ff;
   margin-bottom: 150px;
+  color: #fff;
 }
 
 .contact-button:hover {
@@ -447,6 +450,10 @@ form {
   .contact-element {
     width: 100%;
     margin-bottom: 25px;
+  }
+  
+  .contact-button {
+    padding: 22px 20px;
   }
 
   .socials {
