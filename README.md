@@ -9,7 +9,7 @@
 
 PS. This is a practice project at Microverse: a remote software programming school. This project is my personal portfolio showing my work, skills, and history. You can seek me out if you are interested in the things i do or just chatting 😉. 
 
-[screenshot of project]!!![image](https://user-images.githubusercontent.com/53879944/125926936-2c8f9782-a537-4dad-bfcb-b061da7f34b4.png)
+[image](https://user-images.githubusercontent.com/53879944/125926936-2c8f9782-a537-4dad-bfcb-b061da7f34b4.png)
 
 
 
@@ -21,7 +21,7 @@ Additional description about the project and its features.
 - CSS 
 * CSS Flexible Box Layout
 * CSS Grid System
-* Media query
+* Media queries
 
 ## Deployed link: https://danniemo.github.io/Portfolio-Website/
 
