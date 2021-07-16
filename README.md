@@ -2,7 +2,7 @@
 
 # Portfolio-Website
 
-> This is the fourth milestone in the process of creating my portfolio website. In this milestone i:
+- This is the fourth milestone in the process of creating my portfolio website. In this milestone i:
 - Enabled website responsiveness (on mobile and desktop) by adapting the use of media queries. 
 - Embedded form spree into my project to be able to send messages.
 - I added links to my nav bar. Clicking on each item or icon on the nav bar will lead to that section of the website. You should try iy out😍
