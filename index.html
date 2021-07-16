@@ -17,14 +17,27 @@
     <header>
         <a href="#">Daniel Owiri</a>
         <ul>
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Content</li>
-            <li><i class="far fa-envelope"></i></li>
+            <a href="#myPortfolio"><li>Portfolio</li></a>
+            <a href="#About-section"><li>About</li></a>
+            <a href="#Contact-section"><li>Contact</li></a>
+            <a href="#send-mail"><li><i class="far fa-envelope"></i></li></a>
         </ul>
-        <img src="./Tertiary/Union.png" alt="hamburger">
+        <img src="./assets/images/Union.png" alt="hamburger">
+        <!-- <div>
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div> -->
     </header>
-    <section class="first">
+    <section class="first" id="About-section">
         <div class="first-head">
             <h1>Daniel Owiri</h1>
             <h2>Software Developer</h2>
@@ -69,17 +82,17 @@
         <div class="first-link">
             <aside class="group-55 work-first">
                 <p>Work</p>
-                <img src="./Tertiary/Group55.png" alt="arrow down">
+                <img src="./assets/images/Group55.png" alt="arrow down">
             </aside>
-            <img src="./Tertiary/SocialMedia.png" alt="social media icons">
+            <img src="./assets/images/social_media.png" alt="social media icons">
             <aside class="group-55">
-                <img src="./Tertiary/Group55.png" alt="arrow down~~">
+                <img src="./assets/images/Group55.png" alt="arrow down~~">
                 <p>Work</p>
             </aside>
         </div>
     </section>
 
-    <section class="middle-section-work">
+    <section class="middle-section-work" id="myPortfolio">
         <div class="middle-section">
             <h3>My recent work</h3>
             <hr class="first-line">
@@ -160,26 +173,26 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="Contact-section">
         <div class="contact-text">
             <h5 class="chat">Lets's Chat!</h5>
             <h5 class="mobile">CONTACT US</h5>
             <p>If you have an application you are interested in developing,
                 a feature that you need built or a project that needs coding. I’d love to help with it </p>
         </div>
-        <form action="contact" class="contact-form">
+        <form action="https://formspree.io/f/mayadbao" method="POST">
             <div class="data">
-                <input type="text" class="contact-element" name="user-fname" placeholder="First Name"><br class="custom">
-                <input type="text" class="contact-element" name="user-lname" placeholder="Last Name">
+                <input type="text" class="contact-element" name="user-f&lname" placeholder="First and Last Name">
             </div>
             <label for="email"></label>
-            <input type="email" id="email" class="contact-element1" name="user-email" placeholder="Email Address"><br>
-            <textarea name="user-message" class="contact-element2" cols="30" rows="10" placeholder="Write your message here"></textarea><br><br>
-            <button type="button" class="contact-button">See Project</button>
+            <input type="email" id="email" class="contact-element1" name="_replyto" placeholder="danielowiri4zoe@gmail.com"><br>
+            <label for="message"></label>
+            <textarea name="message" id="message" class="contact-element2" cols="30" rows="10" placeholder="Write your message here"></textarea><br><br>
+            <button type="submit" class="contact-button">Send message</button>
         </form>
-        <footer class="socials">
-            <img src="./Tertiary/SocialMedia.png" alt="social media icons">
-            <p>emailhere@email.com</p>
+        <footer class="socials" id="send-mail">
+            <img src="./assets/images/social_media.png" alt="social media icons">
+            <p>danielowiri4zoe@email.com</p>
         </footer>
     </section>
 </body>

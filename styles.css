@@ -36,13 +36,23 @@ header ul li {
   margin-left: 32px;
 }
 
+.items li {
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+header ul li:hover {
+  color: #008ad7;
+}
+
 header img {
   display: none;
 }
 
 .first {
   margin-top: 80px;
-  background-image: url(./Tertiary/two\ circles\ header.png);
+  background-image: url(./assets/images/two_circles_header.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,12 +112,6 @@ li h4 {
 
 .items ul {
   list-style-type: none;
-}
-
-.items li {
-  margin-bottom: 20px;
-  color: #fff;
-  font-weight: 400;
 }
 
 .first-link {
@@ -188,7 +192,7 @@ li h4 {
 
   .first {
     margin-top: 40px;
-    background-image: url(./Tertiary/top\ circles.svg);
+    background-image: url(./assets/images/top_circles.svg);
     background-size: contain;
   }
 }
@@ -197,7 +201,7 @@ li h4 {
 .middle-section-work {
   margin-top: 180px;
   padding-bottom: 60px;
-  background-image: url(./Tertiary/Group\ 65.svg);
+  background-image: url(./assets/images/Group\ 65.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -297,7 +301,7 @@ li h4 {
 }
 
 .desc button:hover {
-  background-color: #000;
+  background-color: #008ad7;
   color: white;
 }
 
@@ -310,7 +314,7 @@ li h4 {
   .middle-section-work {
     margin-top: 80px;
     padding-bottom: 40px;
-    background-image: url(./Tertiary/portfolio\ background\ shapes\ mobile.svg);
+    background-image: url(./assets/images/portfolio\ background\ shapes\ mobile.svg);
     background-size: contain;
   }
 
@@ -389,7 +393,7 @@ form {
 }
 
 .contact-element {
-  width: 48.5%;
+  width: 100%;
   height: 50px;
   margin-bottom: 20px;
   margin-right: 0;
@@ -423,7 +427,7 @@ form {
 }
 
 .contact-button:hover {
-  background-color: #000;
+  background-color: #008ad7;
   color: white;
 }
 
