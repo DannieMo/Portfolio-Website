@@ -28,12 +28,15 @@ header a {
 }
 
 header ul {
-  display: flex;
   list-style-type: none;
 }
 
 header ul li {
   margin-left: 32px;
+}
+
+.header-icons {
+  display: flex;
 }
 
 .items li {
