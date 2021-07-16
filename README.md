@@ -12,7 +12,6 @@ PS. This is a practice project at Microverse: a remote software programming scho
 ![image](https://user-images.githubusercontent.com/53879944/125926936-2c8f9782-a537-4dad-bfcb-b061da7f34b4.png)
 
 
-
 Additional description about the project and its features.
 
 ## Built With
