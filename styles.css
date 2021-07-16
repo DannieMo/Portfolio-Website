@@ -45,7 +45,7 @@ header ul li {
   font-weight: 400;
 }
 
-header ul li:hover {
+header ul a:hover {
   color: #008ad7;
 }
 
