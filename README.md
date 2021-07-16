@@ -19,7 +19,7 @@ Additional description about the project and its features.
 - CSS 
 * CSS Flexible Box Layout
 
-## Deployed link: https://danniemo.github.io/Portfolio-Website/
+## Deployed link:  https://danniemo.github.io/Portfolio-Website/
 
 To get a local copy up and runnig follow the following steps:
 1. Set up:
