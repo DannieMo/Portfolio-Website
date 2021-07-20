@@ -152,12 +152,12 @@
         </div>
         <form action="https://formspree.io/f/mayadbao" method="POST">
             <div class="data">
-                <input type="text" class="contact-element" name="user-f&lname" placeholder="First and Last Name">
+                <input type="text" class="contact-element" name="user-f&lname" placeholder="First and Last Name" maxlength="30" required>
             </div>
             <label for="email"></label>
-            <input type="email" id="email" class="contact-element1" name="_replyto" placeholder="danielowiri4zoe@gmail.com"><br>
+            <input type="email" id="email" class="contact-element1" name="_replyto" placeholder="danielowiri4zoe@gmail.com" required><br>
             <label for="message"></label>
-            <textarea name="message" id="message" class="contact-element2" cols="30" rows="10" placeholder="Write your message here"></textarea><br><br>
+            <textarea name="message" id="message" class="contact-element2" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea><br><br>
             <button type="submit" class="contact-button">Send message</button>
         </form>
         <hr class="bottom-line">
