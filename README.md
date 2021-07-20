@@ -2,10 +2,9 @@
 
 # Portfolio-Website
 
-- This is the fourth milestone in the process of creating my portfolio website. In this milestone i:
-- Enabled website responsiveness (on mobile and desktop) by adapting the use of media queries. 
+- This is the third milestone of my portfolio website. In this milestone i:
+- Added contact form and footer 
 - Embedded form spree into my project to be able to send messages.
-- I added links to my nav bar. Clicking on each item or icon on the nav bar will lead to that section of the website. You should try iy out😍
 
 PS. This is a practice project at Microverse: a remote software programming school. This project is my personal portfolio showing my work, skills, and history. You can seek me out if you are interested in the things i do or just chatting 😉. 
 
@@ -20,7 +19,6 @@ Additional description about the project and its features.
 - CSS 
 * CSS Flexible Box Layout
 * CSS Grid System
-* Media queries
 
 ## Deployed link: https://danniemo.github.io/Portfolio-Website/
 
@@ -35,10 +33,15 @@ To get a local copy up and runnig follow the following steps:
  Right click and open the index.html in your browser to view
 
 
-## Author
+## Authors
 
 Daniel Majesty Owiri
 - GitHub: [@DannieMo](https://github.com/DannieMo)
+
+Gabriel Nwachukwu
+- Github: https://github.com/gabrielcoder247/
+- linkedin: https://www.linkedin.com/in/gabriel-nwachukwu-209613173/
+
 
 
 ## 🤝 Contributing
