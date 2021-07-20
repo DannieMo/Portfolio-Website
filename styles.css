@@ -362,4 +362,39 @@ li h4 {
 }
 
 /* Contact Form and Footer */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
 
+.contact h5 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #9390ff;
+  line-height: 24px;
+  text-align: center;
+}
+
+.mobile {
+  display: none;
+  text-align: center;
+}
+
+form {
+  color: #000;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
