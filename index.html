@@ -16,21 +16,19 @@
 <body>
     <header>
         <a href="#">Daniel Owiri</a>
-        <ul>
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Content</li>
-            <li><i class="far fa-envelope"></i></li>
+        <ul class="header-icons">
+            <li><a href="#myPortfolio">Portfolio</a></li>
+            <li><a href="#About-section">About</a></li>
+            <li><a href="#Contact-section">Contact</a></li>
+            <li><a href="#send-mail"><i class="far fa-envelope"></i></a></li>
         </ul>
-        <img src="./Tertiary/Union.png" alt="hamburger">
+        <img src="./assets/images/Union.png" alt="hamburger">
     </header>
-    <section class="first">
+    <section class="first" id="About-section">
         <div class="first-head">
             <h1>Daniel Owiri</h1>
             <h2>Software Developer</h2>
-            <p>I can help you build a product ,
-                feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
-                don’t hestiate to contact me.
+            <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
             </p>
             <hr class="first-line">
             <div class="items">
@@ -69,17 +67,16 @@
         <div class="first-link">
             <aside class="group-55 work-first">
                 <p>Work</p>
-                <img src="./Tertiary/Group55.png" alt="arrow down">
+                <img src="./assets/images/Group55.png" alt="arrow down">
             </aside>
-            <img src="./Tertiary/SocialMedia.png" alt="social media icons">
+            <img src="./assets/images/social_media.png" alt="social media icons">
             <aside class="group-55">
-                <img src="./Tertiary/Group55.png" alt="arrow down~~">
+                <img src="./assets/images/Group55.png" alt="arrow down~~">
                 <p>Work</p>
             </aside>
         </div>
     </section>
-
-    <section class="middle-section-work">
+    <section class="middle-section-work" id="myPortfolio">
         <div class="middle-section">
             <h3>My recent work</h3>
             <hr class="first-line">
@@ -88,10 +85,7 @@
                     <div class="rect"></div>
                     <div class="desc">
                         <h4>Multi-Purpose Stories</h4>
-                        <p>A daily selection of privately personalized reads;
-                            no accounts or sign-ups required. has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a standard dummy text.
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
                         </p>
                         <div class="skills">
                             <p>css</p>
@@ -105,10 +99,7 @@
                 <div class="story-left invert">
                     <div class="desc">
                         <h4>Multi-Purpose Stories</h4>
-                        <p>A daily selection of privately personalized reads;
-                            no accounts or sign-ups required. has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a standard dummy text.
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
                         </p>
                         <div class="skills">
                             <p>css</p>
@@ -124,10 +115,7 @@
                     <div class="rect"></div>
                     <div class="desc">
                         <h4>Multi-Purpose Stories</h4>
-                        <p>A daily selection of privately personalized reads;
-                            no accounts or sign-ups required. has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a standard dummy text.
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
                         </p>
                         <div class="skills">
                             <p>css</p>
@@ -141,10 +129,7 @@
                 <div class="story-left invert">
                     <div class="desc">
                         <h4>Multi-Purpose Stories</h4>
-                        <p>A daily selection of privately personalized reads;
-                            no accounts or sign-ups required. has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a standard dummy text.
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
                         </p>
                         <div class="skills">
                             <p>css</p>
@@ -154,34 +139,33 @@
                         </div>
                         <button type="button">See Project</button>
                     </div>
-                    <div class="rect"></div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="contact">
+    <section class="contact" id="Contact-section">
         <div class="contact-text">
             <h5 class="chat">Lets's Chat!</h5>
             <h5 class="mobile">CONTACT US</h5>
-            <p>If you have an application you are interested in developing,
-                a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+            </p>
         </div>
-        <form action="contact" class="contact-form">
+        <form action="https://formspree.io/f/mayadbao" method="POST">
             <div class="data">
-                <input type="text" class="contact-element" name="user-fname" placeholder="First Name"><br class="custom">
-                <input type="text" class="contact-element" name="user-lname" placeholder="Last Name">
+                <input type="text" class="contact-element" name="user-f&lname" placeholder="First and Last Name" maxlength="30" required>
             </div>
             <label for="email"></label>
-            <input type="email" id="email" class="contact-element1" name="user-email" placeholder="Email Address"><br>
-            <textarea name="user-message" class="contact-element2" cols="30" rows="10" placeholder="Write your message here"></textarea><br><br>
-            <button type="button" class="contact-button">See Project</button>
+            <input type="email" id="email" class="contact-element1" name="_replyto" placeholder="danielowiri4zoe@gmail.com" required><br>
+            <label for="message"></label>
+            <textarea name="message" id="message" class="contact-element2" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea><br><br>
+            <button type="submit" class="contact-button">Send message</button>
         </form>
-        <footer class="socials">
-            <img src="./Tertiary/SocialMedia.png" alt="social media icons">
-            <p>emailhere@email.com</p>
+        <hr class="bottom-line">
+        <footer class="socials" id="send-mail">
+          <img src="./assets/images/social_media.png" alt="social media icons">
+          <p>danielowiri4zoe@email.com</p>
         </footer>
-    </section>
+      </section>
 </body>
 
 </html>
