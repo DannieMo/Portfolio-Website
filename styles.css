@@ -21,6 +21,10 @@ header {
   font-size: 15px;
 }
 
+.app-container {
+  margin-top: 73px;
+}
+
 header a {
   font-size: 18px;
   text-decoration: none;
@@ -210,7 +214,7 @@ li h4 {
   padding-bottom: 60px;
   background-image: url(./assets/images/Group\ 65.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position-y: 75px;
 }
 
 .middle-section {
@@ -322,7 +326,7 @@ li h4 {
     margin-top: 80px;
     padding-bottom: 40px;
     background-image: url(./assets/images/portfolio\ background\ shapes\ mobile.svg);
-    background-size: contain;
+    background-position-y: 233px;
   }
 
   .middle-section {
@@ -347,7 +351,7 @@ li h4 {
   }
 
   .desc h4 {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .skills p {
@@ -376,6 +380,7 @@ li h4 {
   color: #9390ff;
   line-height: 24px;
   text-align: center;
+  margin-top: 40px;
 }
 
 .mobile {
@@ -428,7 +433,7 @@ form {
   padding: 15px 40px;
   background-color: #9390ff;
   border: 1px solid #9390ff;
-  margin-bottom: 150px;
+  margin-bottom: 108px;
   color: #fff;
 }
 
@@ -449,6 +454,7 @@ form {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
