@@ -2,6 +2,7 @@ body {
   background-color: #191765;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 
 * {
@@ -19,6 +20,11 @@ header {
   justify-content: space-between;
   color: #fff;
   font-size: 15px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .app-container {
@@ -47,6 +53,7 @@ header ul li {
   margin-bottom: 20px;
   color: #fff;
   font-weight: 400;
+  font-size: 14px;
 }
 
 header ul a:hover {
@@ -61,7 +68,7 @@ header img {
   margin-top: 80px;
   background-image: url(./assets/images/two_circles_header.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .first-head {
@@ -114,7 +121,8 @@ header img {
 li h4 {
   color: #9390ff;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 .items ul {
@@ -203,8 +211,10 @@ li h4 {
 
   .first {
     margin-top: 40px;
-    background-image: url(./assets/images/top_circles.svg);
-    background-size: contain;
+    background-image: url(./assets/images/top_circles_kc.png);
+    background-size: 100% 50%;
+    background-position: left top;
+    background-repeat: no-repeat;
   }
 }
 
@@ -214,7 +224,7 @@ li h4 {
   padding-bottom: 60px;
   background-image: url(./assets/images/Group\ 65.svg);
   background-repeat: no-repeat;
-  background-position-y: 75px;
+  background-position-y: 104px;
 }
 
 .middle-section {
@@ -305,7 +315,7 @@ li h4 {
   margin-top: 30px;
   font-weight: 500;
   font-size: 15px;
-  padding: 15px 20px;
+  padding: 15px;
   background-color: #9390ff;
   border: 1px solid #9390ff;
   color: #fff;
@@ -404,10 +414,10 @@ form {
 }
 
 .contact-element {
-  width: 100%;
+  width: 48.5%;
   height: 50px;
   margin-bottom: 20px;
-  margin-right: 0;
+  /* margin-right: 0; */
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -417,7 +427,6 @@ form {
   height: 50px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 28px;
 }
 
 .contact-element2 {
@@ -430,7 +439,7 @@ form {
   margin-top: 30px;
   font-weight: 500;
   font-size: 15px;
-  padding: 15px 40px;
+  padding: 15px;
   background-color: #9390ff;
   border: 1px solid #9390ff;
   margin-bottom: 108px;
@@ -457,6 +466,10 @@ form {
   margin-bottom: 20px;
 }
 
+.for-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .contact {
     width: 90%;
@@ -473,10 +486,11 @@ form {
   .contact-element {
     width: 100%;
     margin-bottom: 25px;
+    display: none;
   }
 
   .contact-button {
-    padding: 22px 20px;
+    padding: 15px 10px;
   }
 
   .socials {
@@ -492,4 +506,14 @@ form {
     margin-top: 60px;
     display: block;
   }
+
+  /* .fname-input {
+    display: none;
+  } */
+
+  .for-mobile {
+    display: block;
+  }
 }
+
+
