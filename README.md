@@ -8,7 +8,7 @@
 
 PS. This is a practice project at Microverse: a remote software programming school. This project is my personal portfolio showing my work, skills, and history. You can seek me out if you are interested in the things i do or just chatting 😉. 
 
-![image]!![image](https://user-images.githubusercontent.com/53879944/126681884-9a2bfc3b-35f0-4a2e-ba75-c56780f73a91.png)
+[image]![image](https://user-images.githubusercontent.com/53879944/126681884-9a2bfc3b-35f0-4a2e-ba75-c56780f73a91.png)
 
 
 
