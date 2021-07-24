@@ -522,3 +522,10 @@ header .logo {
 @-webkit-keyframes spin{
   100%{-webkit-transform: rotate(360deg);}
 }
+
+.first-head h1 {
+  -webkit-transition: -webkit-transform 1s;
+}
+.first-head h1:hover {
+  -webkit-transform: rotate(360deg) translateY(0);
+}
