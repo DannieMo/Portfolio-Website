@@ -498,7 +498,6 @@ header .logo {
 
 
 /* use keyframes */
-
 @-webkit-keyframes spin {
     100% {
         -webkit-transform: rotate(360deg);
@@ -521,4 +520,13 @@ header .logo {
 .desc button:hover {
     background-image: linear-gradient(to left, #F4C64C, #1B1E1F, #69A239);
     background-position: right;
+}
+
+.contact-text p {
+  transition: transform 1s ease-in-out, color 2s;
+}
+
+.contact-text p:hover {
+  color: #69A239;
+  transform: translate(40px,40px);
 }
