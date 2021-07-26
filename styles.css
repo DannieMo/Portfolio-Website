@@ -84,6 +84,7 @@ header img {
   font-weight: 700;
   font-size: 80px;
   text-align: center;
+  -webkit-transition: -webkit-transform 1s;
 }
 
 .first-head h2 {
@@ -254,6 +255,8 @@ li h4 {
   width: 42%;
   padding-left: 15px;
   padding-top: 80px;
+  transform: translateZ(0);
+  transition: 0.6s;
 }
 
 .middle-section h3 {
@@ -299,6 +302,7 @@ li h4 {
   line-height: 28px;
   margin-top: 25px;
   margin-bottom: 45px;
+  transition: transform 1s ease-in-out, color 2s;
 }
 
 .socials p {
@@ -324,6 +328,8 @@ li h4 {
 .desc button:hover {
   background-color: #008ad7;
   color: white;
+  background-image: linear-gradient(to left, #f4c64c, #1b1e1f, #69a239);
+  background-position: right;
 }
 
 @media screen and (max-width: 768px) {
@@ -509,4 +515,27 @@ form {
   .for-mobile {
     display: block;
   }
+}
+
+/* Transition and Animation */
+header .logo {
+  -webkit-animation: spin 3s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+/* use keyframes */
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.first-head h1:hover {
+  -webkit-transform: rotate(360deg) translateY(0);
+}
+
+.contact-text p:hover {
+  color: #69a239;
+  transform: translate(40px, 40px);
 }
