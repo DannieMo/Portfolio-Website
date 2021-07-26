@@ -21,7 +21,7 @@ Additional description about the project and its features.
 * CSS Grid System
 * Media queries
 
-## Deployed link: https://danniemo.github.io/Portfolio-Website/
+## Deployed link:  https://danniemo.github.io/Portfolio-Website/
 
 To get a local copy up and runnig follow the following steps:
 
