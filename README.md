@@ -4,7 +4,7 @@
 
 This is the fourth milestone of my portfolio website. In this milestone i:
 
-- I used media queries to make sure that my website responds to differenr view port, e.g desktop and mobie.
+- I used media queries to make sure that my website responds to different viewport, e.g desktop and mobile.
 - Added links to my header elements. When you click it it brings you to that section of the website. You sohould try it out.😉
 
 
@@ -30,7 +30,7 @@ To get a local copy up and runnig follow the following steps:
    Download this Github Repository and go to the index.html file
 
 2. Install:
-   Set up lieserver as an extention in your VS Code
+   Set up liveserver as an extention in your VS Code
 
 3. Usage:
    Right click and open the index.html in your browser to view
