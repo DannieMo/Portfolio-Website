@@ -240,6 +240,18 @@ li h4 {
     z-index: 0;
   }
 
+  .mobile-2 {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    left: 64%;
+    top: 400px;
+    background: rgba(237, 236, 255, 0.9);
+    filter: blur(48px);
+    transform: rotate(150deg);
+    overflow: hidden;
+  }
+
   /* End of Mobile Menu */
 
   .first-head h1 {
