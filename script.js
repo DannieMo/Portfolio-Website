@@ -9,3 +9,11 @@ function menuClose() {
 function menuOpen() {
   mobileMenu.style.left = '0';
 }
+
+document.querySelectorAll('.listItem').forEach((item) => {
+  item.addEventListener('click', () => {
+    mobileMenu.style.left = '-110%';
+  });
+});
+closeIcon.addEventListener('click', menuClose);
+openIcon.addEventListener('click', menuOpen);
