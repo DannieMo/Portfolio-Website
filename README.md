@@ -2,10 +2,7 @@
 
 # Portfolio-Website
 
-This is the fourth milestone of my portfolio website. In this milestone i:
-
-- I used media queries to make sure that my website responds to differenr view port, e.g desktop and mobie.
-- Added links to my header elements. When you click it it brings you to that section of the website. You sohould try it out.😉
+In this milestone of my portfolio website, I implemented the mobile menu, using DOM to manipulate the elements of the mobile menu. 
 
 
 [image]![image](https://user-images.githubusercontent.com/53879944/126681884-9a2bfc3b-35f0-4a2e-ba75-c56780f73a91.png)
@@ -16,6 +13,7 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
+- JavaScript
 
 * CSS Flexible Box Layout
 * CSS Grid System

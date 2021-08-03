@@ -15,5 +15,6 @@ document.querySelectorAll('.listItem').forEach((item) => {
     mobileMenu.style.left = '-110%';
   });
 });
+
 closeIcon.addEventListener('click', menuClose);
 openIcon.addEventListener('click', menuOpen);
