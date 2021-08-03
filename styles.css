@@ -2,7 +2,7 @@ body {
   background-color: #191765;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
-  position: relative;
+  position: static;
 }
 
 * {
@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
   color: #fff;
   font-size: 15px;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   bottom: 0;
   right: 0;
@@ -61,6 +61,10 @@ header ul a:hover {
 }
 
 header img {
+  display: none;
+}
+
+.mobile-menu {
   display: none;
 }
 
@@ -161,6 +165,11 @@ li h4 {
 }
 
 @media screen and (max-width: 768px) {
+  /* Mobile Menu */
+  
+
+  /* End of Mobile Menu */
+
   .first-head h1 {
     font-size: 48px;
   }
@@ -246,9 +255,10 @@ li h4 {
 }
 
 .rect {
-  width: 55%;
+  width: 53%;
   background-color: #fff;
   height: auto;
+  border-radius: 15px;
 }
 
 .desc {
@@ -323,6 +333,7 @@ li h4 {
   background-color: #9390ff;
   border: 1px solid #9390ff;
   color: #fff;
+  border-radius: 10px;
 }
 
 .desc button:hover {
@@ -425,6 +436,7 @@ form {
   margin-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 10px;
 }
 
 .contact-element1 {
@@ -432,23 +444,25 @@ form {
   height: 50px;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 10px;
 }
 
 .contact-element2 {
   width: 100%;
   height: 150px;
   padding: 10px 15px;
+  border-radius: 10px;
 }
 
 .contact-button {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 15px;
-  padding: 17px 43px;
+  padding: 17px 9px;
   background-color: #9390ff;
   border: 1px solid #9390ff;
   margin-bottom: 108px;
   color: #fff;
+  border-radius: 10px;
 }
 
 .contact-button:hover {

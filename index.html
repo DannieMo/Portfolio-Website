@@ -1,200 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio Site</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/e744810f7a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e744810f7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-22ELG6VPR2');
-    </script>
-</head>
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<body>
-    <header>
-        <a class="logo" href="#">Daniel Owiri</a>
-        <ul class="header-icons">
-            <li><a href="#myPortfolio">Portfolio</a></li>
-            <li><a href="#About-section">About</a></li>
-            <li><a href="#Contact-section">Contact</a></li>
-            <li><a href="#send-mail"><i class="far fa-envelope"></i></a></li>
+      gtag("config", "G-22ELG6VPR2");
+    </script>
+  </head>
+
+  <body>
+      <!-- Mobile Menu Starts Here -->
+      <div id="my-menu" class="mobile-menu">
+        <ul>
+          <li class="listItem"><a href="#myPortfolio">Portfolio</a></li>
+          <li class="listItem"><a href="#About-section">About</a></li>
+          <li class="listItem"><a href="#Contact-section">Contact</a></li>
         </ul>
-        <img src="./assets/images/Union.png" alt="hamburger">
+        <img src="./assets/images/Icon.png" alt="close menu" class="close-button" id="close-menu">
+        <div class="mobile-1"></div>
+        <div class="mobile-2"></div>
+      </div>
+      <!-- Mobile Menu Ends Here-->
+    <header>
+      <a class="logo" href="#">Daniel Owiri</a>
+      <ul class="header-icons">
+        <li><a href="#myPortfolio">Portfolio</a></li>
+        <li><a href="#About-section">About</a></li>
+        <li><a href="#Contact-section">Contact</a></li>
+        <li>
+          <a href="#send-mail"><i class="far fa-envelope"></i></a>
+        </li>
+      </ul>
+      <img src="./assets/images/Union.png" alt="hamburger" class="hamburger" id="hamburger"/>
     </header>
     <main class="app-container">
-        <section class="first" id="About-section">
-            <div class="first-head">
-                <div>
-                    <!-- <img class="top-circles-images" src="./assets/images/two_circles_header.png" alt="top-images"> -->
-                </div>
-                <h1>Daniel Owiri</h1>
-                <h2>Software Developer</h2>
-                <p>I can help you build a product , feature or website Look through some of 
-                    my work and experience! If you like what you see and have a project you need 
-                    coded, don’t hestiate to contact me.
+      <section class="first" id="About-section">
+        <div class="first-head">
+          <div>
+            <!-- <img class="top-circles-images" src="./assets/images/two_circles_header.png" alt="top-images"> -->
+          </div>
+          <h1>Daniel Owiri</h1>
+          <h2>Software Developer</h2>
+          <p>
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+          <hr class="first-line" />
+          <div class="items">
+            <ul>
+              <li>
+                <h4>Language</h4>
+              </li>
+              <li>Javascript</li>
+              <li>Ruby</li>
+              <li>Html</li>
+              <li>Css</li>
+            </ul>
+            <ul>
+              <li>
+                <h4>Frameworks</h4>
+              </li>
+              <li>Bootstrap</li>
+              <li>Ruby on Rails</li>
+              <li>RSPec</li>
+              <li>CapyBara</li>
+              <li>Selenium</li>
+            </ul>
+            <ul>
+              <li>
+                <h4>Skills</h4>
+              </li>
+              <li>Codekit</li>
+              <li>Github</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+          <hr class="first-line" />
+        </div>
+        <div class="first-link">
+          <aside class="group-55 work-first">
+            <p>Work</p>
+            <img src="./assets/images/Group55.png" alt="arrow down" />
+          </aside>
+          <img
+            src="./assets/images/social_media.png"
+            alt="social media icons"
+          />
+          <aside class="group-55">
+            <img src="./assets/images/Group55.png" alt="arrow down~~" />
+            <p>Work</p>
+          </aside>
+        </div>
+      </section>
+      <section class="middle-section-work" id="myPortfolio">
+        <div class="middle-section">
+          <h3>My recent work</h3>
+          <hr class="first-line" />
+          <div class="stories">
+            <div class="story-left">
+              <div class="rect"></div>
+              <div class="desc">
+                <h4>Multi-Purpose Stories</h4>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
                 </p>
-                <hr class="first-line">
-                <div class="items">
-                    <ul>
-                        <li>
-                            <h4>Language</h4>
-                        </li>
-                        <li>Javascript</li>
-                        <li>Ruby</li>
-                        <li>Html</li>
-                        <li>Css</li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <h4>Frameworks</h4>
-                        </li>
-                        <li>Bootstrap</li>
-                        <li>Ruby on Rails</li>
-                        <li>RSPec</li>
-                        <li>CapyBara</li>
-                        <li>Selenium</li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <h4>Skills</h4>
-                        </li>
-                        <li>Codekit</li>
-                        <li>Github</li>
-                        <li>Codepen</li>
-                        <li>Gitlab</li>
-                        <li>Terminal</li>
-                    </ul>
+                <div class="skills">
+                  <p>css</p>
+                  <p>html</p>
+                  <p>bootstrap</p>
+                  <p>Ruby</p>
                 </div>
-                <hr class="first-line">
+                <button type="button">See Project</button>
+              </div>
             </div>
-            <div class="first-link">
-                <aside class="group-55 work-first">
-                    <p>Work</p>
-                    <img src="./assets/images/Group55.png" alt="arrow down">
-                </aside>
-                <img src="./assets/images/social_media.png" alt="social media icons">
-                <aside class="group-55">
-                    <img src="./assets/images/Group55.png" alt="arrow down~~">
-                    <p>Work</p>
-                </aside>
-            </div>
-        </section>
-        <section class="middle-section-work" id="myPortfolio">
-            <div class="middle-section">
-                <h3>My recent work</h3>
-                <hr class="first-line">
-                <div class="stories">
-                    <div class="story-left">
-                        <div class="rect"></div>
-                        <div class="desc">
-                            <h4>Multi-Purpose Stories</h4>
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. 
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                                printer took a standard dummy text.
-                            </p>
-                            <div class="skills">
-                                <p>css</p>
-                                <p>html</p>
-                                <p>bootstrap</p>
-                                <p>Ruby</p>
-                            </div>
-                            <button type="button">See Project</button>
-                        </div>
-                    </div>
-                    <div class="story-left invert">
-                        <div class="desc">
-                            <h4>Multi-Purpose Stories</h4>
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. 
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                                printer took a standard dummy text.
-                            </p>
-                            <div class="skills">
-                                <p>css</p>
-                                <p>html</p>
-                                <p>bootstrap</p>
-                                <p>Ruby</p>
-                            </div>
-                            <button type="button">See Project</button>
-                        </div>
-                        <div class="rect"></div>
-                    </div>
-                    <div class="story-left">
-                        <div class="rect"></div>
-                        <div class="desc">
-                            <h4>Multi-Purpose Stories</h4>
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. 
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                                printer took a standard dummy text.
-                            </p>
-                            <div class="skills">
-                                <p>css</p>
-                                <p>html</p>
-                                <p>bootstrap</p>
-                                <p>Ruby</p>
-                            </div>
-                            <button type="button">See Project</button>
-                        </div>
-                    </div>
-                    <div class="story-left invert">
-                        <div class="desc">
-                            <h4>Multi-Purpose Stories</h4>
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. 
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                                printer took a standard dummy text.
-                            </p>
-                            <div class="skills">
-                                <p>css</p>
-                                <p>html</p>
-                                <p>bootstrap</p>
-                                <p>Ruby</p>
-                            </div>
-                            <button type="button">See Project</button>
-                        </div>
-                        <div class="rect"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact" id="Contact-section">
-            <div class="contact-text">
-                <h5 class="chat">Let's Chat!</h5>
-                <h5 class="mobile">CONTACT US</h5>
-                <p>If you have an application you are interested in developing, 
-                    a feature that you need built or a project that needs coding. I’d love to help with it
+            <div class="story-left invert">
+              <div class="desc">
+                <h4>Multi-Purpose Stories</h4>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
                 </p>
-            </div>
-            <form action="https://formspree.io/f/mayadbao" method="POST">
-                <div class="data">
-                    <input type="text" class="contact-element fname-input" name="user-fname" placeholder="Jeremy" maxlength="30" required><br class="custom">
-                    <input type="text" class="contact-element" name="user-lname" placeholder="Last Name" maxlength="30" required>
-                    <input type="text" class="contact-element for-mobile" name="user-lname" placeholder="First and Last Name" maxlength="30" required>
+                <div class="skills">
+                  <p>css</p>
+                  <p>html</p>
+                  <p>bootstrap</p>
+                  <p>Ruby</p>
                 </div>
-                <label for="email"></label>
-                <input type="email" id="email" class="contact-element1" name="_replyto" placeholder="Email address" required><br>
-                <label for="message"></label>
-                <textarea name="message" id="message" class="contact-element2" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea><br><br>
-                <button type="submit" class="contact-button">Send</button>
-            </form>
-            <hr class="bottom-line">
-            <footer class="socials" id="send-mail">
-              <img src="./assets/images/social_media.png" alt="social media icons">
-              <p>danielowiri4zoe@email.com</p>
-            </footer>
-          </section>
+                <button type="button">See Project</button>
+              </div>
+              <div class="rect"></div>
+            </div>
+            <div class="story-left">
+              <div class="rect"></div>
+              <div class="desc">
+                <h4>Multi-Purpose Stories</h4>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
+                </p>
+                <div class="skills">
+                  <p>css</p>
+                  <p>html</p>
+                  <p>bootstrap</p>
+                  <p>Ruby</p>
+                </div>
+                <button type="button">See Project</button>
+              </div>
+            </div>
+            <div class="story-left invert">
+              <div class="desc">
+                <h4>Multi-Purpose Stories</h4>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
+                </p>
+                <div class="skills">
+                  <p>css</p>
+                  <p>html</p>
+                  <p>bootstrap</p>
+                  <p>Ruby</p>
+                </div>
+                <button type="button">See Project</button>
+              </div>
+              <div class="rect"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="Contact-section">
+        <div class="contact-text">
+          <h5 class="chat">Let's Chat!</h5>
+          <h5 class="mobile">CONTACT US</h5>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </div>
+        <form action="https://formspree.io/f/mayadbao" method="POST">
+          <div class="data">
+            <input
+              type="text"
+              class="contact-element fname-input"
+              name="user-fname"
+              placeholder="Jeremy"
+              maxlength="30"
+              required
+            /><br class="custom" />
+            <input
+              type="text"
+              class="contact-element"
+              name="user-lname"
+              placeholder="Last Name"
+              maxlength="30"
+              required
+            />
+            <input
+              type="text"
+              class="contact-element for-mobile"
+              name="user-lname"
+              placeholder="First and Last Name"
+              maxlength="30"
+              required
+            />
+          </div>
+          <label for="email"></label>
+          <input
+            type="email"
+            id="email"
+            class="contact-element1"
+            name="_replyto"
+            placeholder="Email address"
+            required
+          /><br />
+          <label for="message"></label>
+          <textarea
+            name="message"
+            id="message"
+            class="contact-element2"
+            cols="30"
+            rows="10"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea
+          ><br /><br />
+          <button type="submit" class="contact-button">Send A Message</button>
+        </form>
+        <hr class="bottom-line" />
+        <footer class="socials" id="send-mail">
+          <img
+            src="./assets/images/social_media.png"
+            alt="social media icons"
+          />
+          <p>danielowiri4zoe@email.com</p>
+        </footer>
+      </section>
     </main>
-    
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
