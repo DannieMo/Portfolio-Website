@@ -227,6 +227,19 @@ li h4 {
     cursor: pointer;
   }
 
+  .mobile-1 {
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 0;
+    top: 150px;
+    background: rgba(237, 236, 255, 0.6);
+    filter: blur(55px);
+    transform: rotate(28.09deg);
+    cursor: pointer;
+    z-index: 0;
+  }
+
   /* End of Mobile Menu */
 
   .first-head h1 {
