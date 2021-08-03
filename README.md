@@ -2,13 +2,9 @@
 
 # Portfolio-Website
 
-This is the fourth milestone of my portfolio website. In this milestone i:
+In this milestone of my portfolio website, I added a mobile menu, using the DOM to manipulate the mobile menu elements. 
 
-- I used media queries to make sure that my website responds to different viewport, e.g desktop and mobile.
-- Added links to my header elements. When you click it it brings you to that section of the website. You sohould try it out.😉
-
-
-[image]![image](https://user-images.githubusercontent.com/53879944/126681884-9a2bfc3b-35f0-4a2e-ba75-c56780f73a91.png)
+[image]!![image](https://user-images.githubusercontent.com/53879944/128053431-903b52e1-2d64-4c13-bee6-7281be7c938e.png)
 
 Additional description about the project and its features.
 
@@ -16,6 +12,7 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
+- JavaScript
 
 * CSS Flexible Box Layout
 * CSS Grid System
@@ -40,7 +37,7 @@ To get a local copy up and runnig follow the following steps:
 Daniel Majesty Owiri
 
 - GitHub: [@DannieMo](https://github.com/DannieMo)
-- LinkedIn: [Daniel Owiri](https://www.linkedin.com/in/daniel-majesty-owiri-85175616b)
+- LinkedIn: [Daniel Majesty Owiri](linkedin.com/in/daniel-majesty-owiri-85175616b)
 
 ## 🤝 Contributing
 

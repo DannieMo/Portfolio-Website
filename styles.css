@@ -2,7 +2,7 @@ body {
   background-color: #191765;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
-  position: relative;
+  position: static;
 }
 
 * {
@@ -20,7 +20,6 @@ header {
   justify-content: space-between;
   color: #fff;
   font-size: 15px;
-  position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
@@ -61,6 +60,10 @@ header ul a:hover {
 }
 
 header img {
+  display: none;
+}
+
+.mobile-menu {
   display: none;
 }
 
@@ -161,6 +164,101 @@ li h4 {
 }
 
 @media screen and (max-width: 768px) {
+  /* Mobile Menu */
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #191765;
+    top: 0;
+    left: -110%;
+    z-index: 100;
+    transition: 450ms ease-in;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  .mobile-menu ul {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .mobile-menu ul li {
+    position: relative;
+    list-style: none;
+    margin: 40px auto;
+    z-index: 999;
+  }
+
+  .mobile-menu ul li a {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: #ebebff;
+    text-decoration: none;
+    padding: 5px;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul li a::after {
+    content: url(./assets/images/Union2.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul li a:hover {
+    border-bottom: 1px solid #a5a5aa;
+    color: #fff;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .mobile-1 {
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 0;
+    top: 150px;
+    background: rgba(237, 236, 255, 0.6);
+    filter: blur(55px);
+    transform: rotate(28.09deg);
+    cursor: pointer;
+    z-index: 0;
+  }
+
+  .mobile-2 {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    left: 64%;
+    top: 400px;
+    background: rgba(237, 236, 255, 0.9);
+    filter: blur(48px);
+    transform: rotate(150deg);
+    overflow: hidden;
+  }
+
+  /* End of Mobile Menu */
+
   .first-head h1 {
     font-size: 48px;
   }
@@ -180,10 +278,6 @@ li h4 {
   .items {
     margin-top: 20px;
     flex-wrap: wrap;
-  }
-
-  header ul {
-    display: none;
   }
 
   .header-icons {
@@ -246,9 +340,10 @@ li h4 {
 }
 
 .rect {
-  width: 55%;
+  width: 53%;
   background-color: #fff;
   height: auto;
+  border-radius: 15px;
 }
 
 .desc {
@@ -323,6 +418,7 @@ li h4 {
   background-color: #9390ff;
   border: 1px solid #9390ff;
   color: #fff;
+  border-radius: 10px;
 }
 
 .desc button:hover {
@@ -425,6 +521,7 @@ form {
   margin-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 10px;
 }
 
 .contact-element1 {
@@ -432,23 +529,25 @@ form {
   height: 50px;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 10px;
 }
 
 .contact-element2 {
   width: 100%;
   height: 150px;
   padding: 10px 15px;
+  border-radius: 10px;
 }
 
 .contact-button {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 15px;
-  padding: 17px 43px;
+  padding: 17px 9px;
   background-color: #9390ff;
   border: 1px solid #9390ff;
   margin-bottom: 108px;
   color: #fff;
+  border-radius: 10px;
 }
 
 .contact-button:hover {
