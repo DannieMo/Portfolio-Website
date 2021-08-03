@@ -189,6 +189,44 @@ li h4 {
     z-index: 999;
   }
 
+  .mobile-menu ul li a {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: #ebebff;
+    text-decoration: none;
+    padding: 5px;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+  }
+  
+  .mobile-menu ul li a::after {
+    content: url(./assets/images/Union2.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    cursor: pointer;
+  }
+  
+  .mobile-menu ul li a:hover {
+    border-bottom: 1px solid #a5a5aa;
+    color: #fff;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    z-index: 3;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+  }
+
   /* End of Mobile Menu */
 
   .first-head h1 {
