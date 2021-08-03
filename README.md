@@ -37,6 +37,7 @@ To get a local copy up and runnig follow the following steps:
 Daniel Majesty Owiri
 
 - GitHub: [@DannieMo](https://github.com/DannieMo)
+- LinkedIn: [Daniel Majesty Owiri](linkedin.com/in/daniel-majesty-owiri-85175616b)
 
 ## 🤝 Contributing
 
