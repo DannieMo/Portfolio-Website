@@ -2,7 +2,7 @@
 
 # Portfolio-Website
 
-In this milestone of my portfolio website, I implemented the mobile menu, using DOM to manipulate the elements of the mobile menu. 
+In this milestone of my portfolio website, I added a mobile menu, using the DOM to manipulate the mobile menu elements. 
 
 
 [image]!![image](https://user-images.githubusercontent.com/53879944/128053431-903b52e1-2d64-4c13-bee6-7281be7c938e.png)
