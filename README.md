@@ -4,7 +4,6 @@
 
 In this milestone of my portfolio website, I added a mobile menu, using the DOM to manipulate the mobile menu elements. 
 
-
 [image]!![image](https://user-images.githubusercontent.com/53879944/128053431-903b52e1-2d64-4c13-bee6-7281be7c938e.png)
 
 Additional description about the project and its features.
@@ -19,7 +18,8 @@ Additional description about the project and its features.
 * CSS Grid System
 * Media queries
 
-## Deployed link: https://danniemo.github.io/Portfolio-Website/
+## Live Demo:  
+[live demo link](https://danniemo.github.io/Portfolio-Website/)
 
 To get a local copy up and runnig follow the following steps:
 
@@ -27,7 +27,7 @@ To get a local copy up and runnig follow the following steps:
    Download this Github Repository and go to the index.html file
 
 2. Install:
-   Set up lieserver as an extention in your VS Code
+   Set up liveserver as an extention in your VS Code
 
 3. Usage:
    Right click and open the index.html in your browser to view
