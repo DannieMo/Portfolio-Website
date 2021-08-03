@@ -5,7 +5,7 @@
 In this milestone of my portfolio website, I implemented the mobile menu, using DOM to manipulate the elements of the mobile menu. 
 
 
-[image]![image](https://user-images.githubusercontent.com/53879944/126681884-9a2bfc3b-35f0-4a2e-ba75-c56780f73a91.png)
+[image]!![image](https://user-images.githubusercontent.com/53879944/128053431-903b52e1-2d64-4c13-bee6-7281be7c938e.png)
 
 Additional description about the project and its features.
 
