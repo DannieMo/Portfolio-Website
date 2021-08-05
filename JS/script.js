@@ -20,4 +20,3 @@ closeIcon.addEventListener('click', menuClose);
 openIcon.addEventListener('click', menuOpen);
 
 /* Form Validation */
-
