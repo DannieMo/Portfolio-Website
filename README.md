@@ -2,12 +2,11 @@
 
 # Portfolio-Website
 
-In this milestone of my portfolio website, i implemented a popup window that includes the project details in both desktop and mobile application using JavaScript. 
+In this milestone of my portfolio website, we implemented a popup window that includes the project details in both desktop and mobile application using JavaScript. 
 
 
 [image]!![image](https://user-images.githubusercontent.com/53879944/128398695-4016d93d-42ad-48d1-ba01-8a81f4c1e50d.png)
 ![image](https://user-images.githubusercontent.com/53879944/128398794-c30da124-287f-405e-8da3-5a02ba95e28e.png)
-
 
 Additional description about the project and its features.
 
@@ -21,7 +20,8 @@ Additional description about the project and its features.
 * CSS Grid System
 * Media queries
 
-## Deployed link: https://danniemo.github.io/Portfolio-Website/
+## Live Demo:  
+[live demo link](https://danniemo.github.io/Portfolio-Website/)
 
 To get a local copy up and runnig follow the following steps:
 
@@ -29,7 +29,7 @@ To get a local copy up and runnig follow the following steps:
    Download this Github Repository and go to the index.html file
 
 2. Install:
-   Set up lieserver as an extention in your VS Code
+   Set up liveserver as an extention in your VS Code
 
 3. Usage:
    Right click and open the index.html in your browser to view
