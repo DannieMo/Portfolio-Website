@@ -633,7 +633,34 @@ form {
 }
 
 /* Modal */
+.modal {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  background: rgba(184, 184, 184, 0.16);
+  border: 1px solid #fff;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  position: fixed;
+  top: 25px;
+  bottom: 15px;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: none;
+  z-index: 999;
+}
 
+.modal-menu {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.modal-close {
+  margin-left: 90%;
+  padding: 20px;
+  cursor: pointer;
+}
 
 /* Transition and Animation */
 header .logo {
