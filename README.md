@@ -5,7 +5,9 @@
 In this milestone of my portfolio website, i implemented a popup window that includes the project details in both desktop and mobile application using JavaScript. 
 
 
-[image]!![image](https://user-images.githubusercontent.com/53879944/128053431-903b52e1-2d64-4c13-bee6-7281be7c938e.png)
+[image]!![image](https://user-images.githubusercontent.com/53879944/128398695-4016d93d-42ad-48d1-ba01-8a81f4c1e50d.png)
+![image](https://user-images.githubusercontent.com/53879944/128398794-c30da124-287f-405e-8da3-5a02ba95e28e.png)
+
 
 Additional description about the project and its features.
 
