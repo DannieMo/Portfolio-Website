@@ -187,6 +187,11 @@ li h4 {
     margin-top: 100px;
   }
 
+  .modal-btn button a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   .mobile-menu ul li {
     position: relative;
     list-style: none;
@@ -615,6 +620,9 @@ form {
     display: block;
   }
 }
+
+/* Modal */
+
 
 /* Transition and Animation */
 header .logo {
