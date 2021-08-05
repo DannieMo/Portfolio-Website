@@ -579,6 +579,17 @@ form {
   display: none;
 }
 
+.modal {
+  width: 85%;
+}
+.modal-menu p {
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 @media screen and (max-width: 768px) {
   .contact {
     width: 90%;
