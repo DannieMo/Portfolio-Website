@@ -5,7 +5,7 @@
 In this milestone of my portfolio website, we implemented a form validation using javascript. This client-side validation is set to catch and throw errors in the UI when the user fills in the wrong data in the input. 
 
 
-[image]!![image](https://user-images.githubusercontent.com/53879944/128533302-56ccc449-f78d-4be7-b7cf-889fc90570e6.png))
+[image]!![image](https://user-images.githubusercontent.com/53879944/128551781-d9472c21-1ae7-43ca-8a35-99d5c10ac534.png)
 
 Additional description about the project and its features.
 
