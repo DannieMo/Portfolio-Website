@@ -25,4 +25,3 @@ form.addEventListener('submit', (e) => {
     alertMsg.style.display = 'none';
   }, 7000);
 });
-
