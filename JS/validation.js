@@ -1,4 +1,5 @@
 const form = document.querySelector('form');
+const form = document.querySelector('form');
 const email = document.getElementById('email');
 const alertMsg = document.querySelector('.alert_msg');
 
