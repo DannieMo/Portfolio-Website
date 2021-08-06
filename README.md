@@ -2,7 +2,7 @@
 
 # Portfolio-Website
 
-In this milestone of my portfolio website, we implemented a popup window that includes the project details in both desktop and mobile application using JavaScript. 
+In this milestone of my portfolio website, we implemented a form validation using javascript. This client-side validation is set to catch and throw errors in the UI when the user fills in the wrong data in the input. 
 
 
 [image]!![image](https://user-images.githubusercontent.com/53879944/128398695-4016d93d-42ad-48d1-ba01-8a81f4c1e50d.png)
