@@ -596,6 +596,20 @@ form {
   display: none;
 }
 
+.fade {
+  display: none;
+  opacity: 0;
+  transition: opacity 2s linear;
+}
+
+.alert_msg {
+  display: none;
+  opacity: 1;
+  transition: opacity 2s linear;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
 @media screen and (max-width: 768px) {
   .contact {
     width: 90%;
