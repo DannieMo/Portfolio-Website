@@ -18,5 +18,3 @@ document.querySelectorAll('.listItem').forEach((item) => {
 
 closeIcon.addEventListener('click', menuClose);
 openIcon.addEventListener('click', menuOpen);
-
-/* Form Validation */
