@@ -2,9 +2,11 @@
 
 # Portfolio-Website
 
-In this milestone of my portfolio website, I added a mobile menu, using the DOM to manipulate the mobile menu elements. 
+In this milestone of my portfolio website, we implemented a popup window that includes the project details in both desktop and mobile application using JavaScript. 
 
-[image]!![image](https://user-images.githubusercontent.com/53879944/128053431-903b52e1-2d64-4c13-bee6-7281be7c938e.png)
+
+[image]!![image](https://user-images.githubusercontent.com/53879944/128398695-4016d93d-42ad-48d1-ba01-8a81f4c1e50d.png)
+![image](https://user-images.githubusercontent.com/53879944/128398794-c30da124-287f-405e-8da3-5a02ba95e28e.png)
 
 Additional description about the project and its features.
 
@@ -32,12 +34,17 @@ To get a local copy up and runnig follow the following steps:
 3. Usage:
    Right click and open the index.html in your browser to view
 
-## Author
+## Authors
 
 Daniel Majesty Owiri
 
 - GitHub: [@DannieMo](https://github.com/DannieMo)
 - LinkedIn: [Daniel Majesty Owiri](linkedin.com/in/daniel-majesty-owiri-85175616b)
+
+Milan Protic
+
+- GitHub: [@mprotic123](https://github.com/mprotic123)
+- Twitter: [@proticm98](https://twitter.com/proticm98)
 
 ## 🤝 Contributing
 

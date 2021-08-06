@@ -187,6 +187,11 @@ li h4 {
     margin-top: 100px;
   }
 
+  .modal-btn button a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   .mobile-menu ul li {
     position: relative;
     list-style: none;
@@ -406,6 +411,14 @@ li h4 {
   color: #ebebff;
 }
 
+.modal-menu p {
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .skills p:last-of-type {
   border-right: none;
 }
@@ -419,6 +432,15 @@ li h4 {
   border: 1px solid #9390ff;
   color: #fff;
   border-radius: 10px;
+}
+
+.modal-btn button {
+  margin: 0 20px 30px 20px;
+  padding: 10px;
+  background-color: #483ed3;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #483ed3;
 }
 
 .desc button:hover {
@@ -614,6 +636,62 @@ form {
   .for-mobile {
     display: block;
   }
+}
+
+/* Modal */
+.modal {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  background: rgba(184, 184, 184, 0.16);
+  border: 1px solid #fff;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  position: fixed;
+  top: 25px;
+  bottom: 15px;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: none;
+  z-index: 999;
+}
+
+.modal-menu {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.modal-close {
+  margin-left: 90%;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.modal-menu h4 {
+  font-size: 38px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.modal-img img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal-body,
+.stack-used-1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.stack-used-1,
+.modal-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* Transition and Animation */

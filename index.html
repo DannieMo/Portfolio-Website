@@ -45,7 +45,7 @@
         <div class="mobile-2"></div>
       </div>
       <!-- Mobile Menu Ends Here-->
-    <header>
+    <header id="page-header">
       <a class="logo" href="#">Daniel Owiri</a>
       <ul class="header-icons">
         <li><a href="#myPortfolio">Portfolio</a></li>
@@ -57,7 +57,7 @@
       </ul>
       <img src="./assets/images/Union.png" alt="hamburger" class="hamburger" id="hamburger"/>
     </header>
-    <main class="app-container">
+    <main class="app-container" id="main-page">
       <section class="first" id="About-section">
         <div class="first-head">
           <div>
@@ -124,6 +124,44 @@
           <h3>My recent work</h3>
           <hr class="first-line" />
           <div class="stories">
+            <!-- <div class="story-left">
+              <div class="rect"></div>
+              <div class="desc">
+                <h4>Multi-Purpose Stories</h4>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
+                </p>
+                <div class="skills">
+                  <p class="stack">css</p>
+                  <p class="stack">html</p>
+                  <p class="stack">bootstrap</p>
+                  <p class="stack">Ruby</p>
+                </div>
+                <button type="button" class="project-btn">See Project</button>
+              </div>
+            </div> -->
+            <!-- <div class="story-left invert">
+              <div class="desc">
+                <h4>Multi-Purpose Stories</h4>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
+                </p>
+                <div class="skills">
+                  <p class="stack">css</p>
+                  <p class="stack">html</p>
+                  <p class="stack">bootstrap</p>
+                  <p class="stack">Ruby</p>
+                </div>
+                <button type="button" class="project-btn">See Project</button>
+              </div>
+              <div class="rect"></div>
+            </div>
             <div class="story-left">
               <div class="rect"></div>
               <div class="desc">
@@ -135,12 +173,12 @@
                   standard dummy text.
                 </p>
                 <div class="skills">
-                  <p>css</p>
-                  <p>html</p>
-                  <p>bootstrap</p>
-                  <p>Ruby</p>
+                  <p class="stack">css</p>
+                  <p class="stack">html</p>
+                  <p class="stack">bootstrap</p>
+                  <p class="stack">Ruby</p>
                 </div>
-                <button type="button">See Project</button>
+                <button type="button" class="project-btn">See Project</button>
               </div>
             </div>
             <div class="story-left invert">
@@ -153,54 +191,16 @@
                   standard dummy text.
                 </p>
                 <div class="skills">
-                  <p>css</p>
-                  <p>html</p>
-                  <p>bootstrap</p>
-                  <p>Ruby</p>
+                  <p class="stack">css</p>
+                  <p class="stack">html</p>
+                  <p class="stack">bootstrap</p>
+                  <p class="stack">Ruby</p>
                 </div>
-                <button type="button">See Project</button>
+                <button type="button" class="project-btn">See Project</button>
               </div>
               <div class="rect"></div>
             </div>
-            <div class="story-left">
-              <div class="rect"></div>
-              <div class="desc">
-                <h4>Multi-Purpose Stories</h4>
-                <p>
-                  A daily selection of privately personalized reads; no accounts
-                  or sign-ups required. has been the industry's standard dummy
-                  text ever since the 1500s, when an unknown printer took a
-                  standard dummy text.
-                </p>
-                <div class="skills">
-                  <p>css</p>
-                  <p>html</p>
-                  <p>bootstrap</p>
-                  <p>Ruby</p>
-                </div>
-                <button type="button">See Project</button>
-              </div>
-            </div>
-            <div class="story-left invert">
-              <div class="desc">
-                <h4>Multi-Purpose Stories</h4>
-                <p>
-                  A daily selection of privately personalized reads; no accounts
-                  or sign-ups required. has been the industry's standard dummy
-                  text ever since the 1500s, when an unknown printer took a
-                  standard dummy text.
-                </p>
-                <div class="skills">
-                  <p>css</p>
-                  <p>html</p>
-                  <p>bootstrap</p>
-                  <p>Ruby</p>
-                </div>
-                <button type="button">See Project</button>
-              </div>
-              <div class="rect"></div>
-            </div>
-          </div>
+          </div> -->
         </div>
       </section>
       <section class="contact" id="Contact-section">
@@ -213,7 +213,7 @@
             to help with it
           </p>
         </div>
-        <form action="https://formspree.io/f/mayadbao" method="POST">
+        <form id="form" action="https://formspree.io/f/mayadbao" method="POST">
           <div class="data">
             <input
               type="text"
@@ -261,6 +261,7 @@
             required
           ></textarea
           ><br /><br />
+          <span class="error"></span>
           <button type="submit" class="contact-button">Send A Message</button>
         </form>
         <hr class="bottom-line" />
@@ -273,6 +274,9 @@
         </footer>
       </section>
     </main>
-    <script src="script.js"></script>
+    <div id="modal-div"></div>
+    <!-- <div class="overlay"></div> -->
+    <script src="./JS/script.js"></script>
+    <script src="./JS/modal.js"></script>
   </body>
 </html>
