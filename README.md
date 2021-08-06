@@ -2,7 +2,7 @@
 
 # Portfolio-Website
 
-In this milestone of my portfolio website, we implemented a form validation using javascript. This client-side validation is set to catch and throw errors in the UI when the user fills in the wrong data in the input. 
+In this milestone of my portfolio website we used local storage to save user input.
 
 
 [image]!![image](https://user-images.githubusercontent.com/53879944/128551781-d9472c21-1ae7-43ca-8a35-99d5c10ac534.png)
