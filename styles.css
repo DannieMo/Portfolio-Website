@@ -538,7 +538,7 @@ form {
 }
 
 .contact-element {
-  width: 48.5%;
+  width: 100%;
   height: 50px;
   margin-bottom: 20px;
   padding-left: 10px;
@@ -593,7 +593,7 @@ form {
 }
 
 .for-mobile {
-  display: none;
+  display: block;
 }
 
 .fade {
