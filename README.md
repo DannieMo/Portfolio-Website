@@ -20,7 +20,7 @@ Additional description about the project and its features.
 * Media queries
 
 ## Live Demo:  
-[live demo link](https://danniemo.github.io/Portfolio-Website/)
+[live demo link](https://epic-shaw-054d47.netlify.app/index.html)
 
 To get a local copy up and runnig follow the following steps:
 
